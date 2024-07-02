@@ -51,16 +51,14 @@
     .navbar{
         flex-direction: column;
         align-items: flex-start;
+        padding-top: 20px;
     }
 
     .toggleBtn{
         right: -8%;
         align-items: center;
         position: absolute;
-        top: 55%;
-    }
-
-    .toggleBtn{
+        top: 30%;
         max-width: 55px;
         cursor: pointer;
     }

@@ -10,6 +10,7 @@ import { Projects } from "./components/Projects/Projects";
 import React, { useState } from "react";
 
 
+
 function App() {
   // const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const [isDark, setIsDark] = useLocalStorage("isDark", true);
