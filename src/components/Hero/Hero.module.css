@@ -84,8 +84,7 @@
 .topBlur {
   position: absolute;
   width: 50vw;
-  height: 50vw;
-  min-width: 350px;
+  height: 50vh;
   min-width: 350px;
   top: -128px;
   left: -10vw;
@@ -99,7 +98,6 @@
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 250px;
   top: 246px;
   right: -8vw;
@@ -113,6 +111,17 @@
   .container {
     flex-direction: column-reverse;
     margin-top: 65px;
+  }
+
+  .title {
+    margin-top: 6px;
+    font-size: 58px;
+    font-weight: 900;
+  }
+
+  .description {
+    font-size: 23px;
+    margin-bottom: 38px;
   }
 
   .content {
