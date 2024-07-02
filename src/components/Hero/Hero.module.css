@@ -113,6 +113,7 @@
   .container {
     flex-direction: column-reverse;
     margin-top: 80px;
+    margin-bottom: 30px;
   }
 
   .title {
