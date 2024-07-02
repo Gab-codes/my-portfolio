@@ -1,0 +1,17 @@
+[
+  {
+    "role": "Freelance Developer",
+    "organisation": "Self-Employed",
+    "startDate": "Sept, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Developed a fully functional, responsive banking website using Bootstrap for styling.",
+      "Optimized website performance to ensure fast loading times.",
+      "Implemented proper database management to enable accessibility for non-coders.",
+      "Integrated APIs for live functionality and real-time data updates.",
+      "Ensured robust error handling throughout the application to maintain reliability and user satisfaction.",
+      "Incorporated SEO best practices to enhance search engine visibility and user acquisition."
+    ],
+    "imageSrc": "history/freelance.png"
+  }
+]

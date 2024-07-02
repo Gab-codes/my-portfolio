@@ -1,0 +1,87 @@
+@import "../../vars.css";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 76px;
+}
+
+.title{
+    font-size: 35px;
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    color: var(--color-text);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 37px
+}
+
+.formGroup input, textarea{
+    height: 50px;
+    padding-left: 16px;
+    width: 500px;
+    font-size: 22px;
+    font-family: var(--font-roboto);
+}
+
+textarea {
+    padding-top: 16px;
+    resize: none;
+    min-height: 250px;
+}
+
+input, textarea{
+    border-radius: 20px;
+    border: #888 1px solid;
+    box-sizing: border-box;
+    justify-self: center;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-roboto);
+}
+
+::placeholder{
+    color: var(--color-text); 
+}
+
+.btn{
+    background-color: var(--color-primary);
+    border: none;
+    width: 126px;
+    height: 50px;
+    color: white;
+    letter-spacing: 1.6px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    margin: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.btn:active{
+    transform: translateY(2px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+@media screen and (max-width: 830px) {
+    .formGroup input, textarea{
+        height: 50px;
+        padding-left: 16px;
+        max-width: 90%;
+    }
+}
+

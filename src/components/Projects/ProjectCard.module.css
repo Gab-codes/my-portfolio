@@ -1,0 +1,87 @@
+@import "../../vars.css";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: var(--project-gradient-colors);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    max-width: 305px;
+    margin: 0 10px;
+}
+
+.image{
+    margin-bottom: 26px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.description{
+    margin-top: 8px;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.skills{
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+
+.skill{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 2px 22px;
+}
+
+.links{
+     width: 100%;
+     padding-top: 26px;
+     margin-top: auto;
+     display: flex;
+     justify-content: space-around;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 100px;
+    background-color: var(--color-primary);
+    padding: 1px 22px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.link:hover{
+    transform: scale(1.05);
+}
+
+.link:active{
+    transform: translateY(2px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background: var(--project-gradient-colors);
+        box-shadow: var(--project-card-shadow);
+        padding: 18px;
+        max-width: 95%;
+        margin: 10px 10px;
+    }
+}
