@@ -92,6 +92,7 @@
   background: var(--hero-blur);
   filter: blur(100px);
   z-index: 0;
+  transition: background 0.4s ease-in-out;
 }
 
 .bottomBlur {
@@ -105,6 +106,7 @@
   background: var(--hero-blur);
   filter: blur(100px);
   z-index: 0;
+  transition: background 0.4s ease-in-out;
 }
 
 @media screen and (max-width: 830px) {
@@ -126,10 +128,6 @@
 
   .content {
     align-items: center;
-  }
-
-  .bottomBlur {
-    right: -8vw;
   }
     
 }
