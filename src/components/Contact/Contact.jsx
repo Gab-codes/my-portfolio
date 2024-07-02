@@ -19,10 +19,10 @@ export const Contact = () => {
       id='contact'
       className={styles.container}
       ref={ref}
-      initial={{ opacity: 0, y: 75 }}
+      initial={{ opacity: 0, x: -75 }}
       animate={controls}
       variants={{
-        visible: { opacity: 1, y: 0 },
+        visible: { opacity: 1, x: 0 },
       }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
     >

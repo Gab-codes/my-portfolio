@@ -112,7 +112,7 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
-    margin-top: 65px;
+    margin-top: 80px;
   }
 
   .title {
@@ -128,6 +128,10 @@
 
   .content {
     align-items: center;
+  }
+
+  .bottomBlur {
+    right: -8vw;
   }
     
 }

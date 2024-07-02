@@ -55,7 +55,7 @@ export const About = () => {
             </div>
           </motion.li>
           <motion.div 
-            initial={{ opacity: 0, y: 75 }}
+            initial={{ opacity: 0, y: -80 }}
             animate={hobbiesControls}
             variants={{
               visible: { opacity: 1, y: 0 },

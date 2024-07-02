@@ -47,7 +47,7 @@ export const Experience = () => {
             <motion.li
               key={id}
               className={styles.historyItem}
-              initial={{ opacity: 0, x: 75 }}
+              initial={{ opacity: 0, x: -75 }}
               animate={historyControls}
               variants={{
                 visible: { opacity: 1, x: 0 },
