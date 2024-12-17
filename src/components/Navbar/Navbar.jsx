@@ -5,14 +5,12 @@ import { Spin as Hamburger } from 'hamburger-react';
 
 export const Navbar = ({ isDark, setIsDark }) => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [windowWidth, setWindowWidth] = useState(0); // Initial width set to 0
-
+    const [windowWidth, setWindowWidth] = useState(0); 
     useEffect(() => {
         const handleResize = () => {
             setWindowWidth(window.innerWidth);
         };
 
-        // Set initial width on component mount
         setWindowWidth(window.innerWidth);
 
         window.addEventListener('resize', handleResize);
@@ -20,12 +18,12 @@ export const Navbar = ({ isDark, setIsDark }) => {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []); // Empty dependency array for once on mount
+    }, []); 
 
-    // Determine whether to show the menu based on window width
+
     const shouldShowMenu = windowWidth <= 830;
 
-    // Determine hamburger color based on theme
+  
     const hamburgerColor = isDark ? 'var(--color-dark-mode-hamburger)' : 'var(--color-light-mode-hamburger)';
 
     const handleToggle = () => {
